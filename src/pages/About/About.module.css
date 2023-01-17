@@ -1,0 +1,23 @@
+.container__about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    row-gap: 1rem;
+}
+
+.container__about h2 span {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.container__about p {
+    text-align: center;
+    max-width: 510px;
+    color: #AAA;
+}
+
+.container__about a {
+    width: 200px;
+}

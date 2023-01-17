@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  max-width: 1200px;
+  min-height: 60vh;
+
+  margin: 0 auto;
+  padding: 0 2rem;
+  
+  margin-bottom: 5em;
+
+}
+
+.loading__user {
+  margin: 50% auto;
+  text-align: center;
+}

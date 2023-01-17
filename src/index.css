@@ -1,0 +1,150 @@
+body {
+    background: #F6FCFF;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    color: #AAA;
+}
+
+input:focus, 
+textarea:focus {
+    outline: none;
+}
+
+a,
+nav button {
+    text-decoration: none;
+    background: transparent;
+    border: none;
+
+    color: #000;
+
+    transition: .4s;
+    cursor: pointer;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover,
+nav button:hover {
+    color: #bbb;
+}
+
+/* Form styles */
+
+form {
+    /* max-width: 40%; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+label span {
+    text-align: left;
+    font-weight: bold;
+
+    margin-bottom: 0.3rem;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    padding: .8rem 0;
+    
+    border: none;
+    border-bottom: 1px solid #CCC;
+    
+    background: transparent;
+}
+
+.btn {
+    width: 120px;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+
+    padding: 10px 15px;
+
+    cursor: pointer;
+
+    border: none;
+    border-radius: 10px;
+
+    
+    color: #FFF;
+    background: #1a8918;
+}
+
+.btn.btn__dark {
+    border-radius: 0;
+    transition: 0.6s;
+    background: #000;
+}
+
+.btn.btn__dark:hover {
+    color: #000;
+
+    border: 1px solid #000;
+    background: transparent;
+}
+
+.btn.btn__outline {
+    color: #000;
+
+    padding: 7px 30px;
+
+    border: 1px solid #000;
+    border-radius: 0;
+
+    background: transparent;
+}
+
+.btn.btn__danger {
+    color: #000;
+
+    padding: 7px 30px;
+
+    border: 1px solid #000;
+    border-radius: 0;
+
+    background: transparent;
+}
+
+.btn:hover {
+    color: #FFF;
+
+    background: #0F730c;
+}
+
+.btn.btn__outline:hover {
+    background: #000;
+}
+
+.btn.btn__danger:hover {
+    background: #DC3545;
+}
+
+button[disabled] {
+    background: #AAA;
+}
+
+.container .error {
+    color: #721c24;
+
+    padding: 5px;
+
+    border: 1px solid #F5C6cb;
+    border-radius: 5px;
+    
+    background: #F8D7DA;
+}

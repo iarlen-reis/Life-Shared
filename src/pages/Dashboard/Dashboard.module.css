@@ -1,0 +1,90 @@
+.section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 0.3rem;
+}
+
+.header h2 {
+    margin-bottom: .4rem;
+}
+
+.header span {
+    font-weight: 600;
+}
+
+.sem__postagem {
+    display: flex;
+    align-items: center;
+    row-gap: .5rem;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+
+.sem__postagem a {
+    width: 170px;
+}
+
+.tem__postagem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    list-style: none;
+
+    margin-top: 1.7rem;
+    row-gap: 1rem;
+}
+
+.tem__postagem li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-transform: uppercase;
+    
+    padding: 1rem;
+    
+    color: #000;
+    background: #FDFDFD;
+
+
+    border: 1px solid #000;
+}
+
+.tem__postagem li h3 {
+    font-size: .9rem;
+}
+
+.tem__postagem li span {
+    font-weight: 600;
+}
+
+.tem__postagem li div {
+    display: flex;
+    column-gap: 0.8rem;
+
+    font-weight: 600;
+}
+
+.tem__postagem li div a {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tem__postagem li div button {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

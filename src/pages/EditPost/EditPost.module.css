@@ -1,0 +1,45 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    row-gap: 0.5rem;
+}
+
+.section p {
+    text-align: center;
+    margin-bottom: 1rem;
+
+    color: #AAA;
+}
+
+.section form {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+
+    padding: 1.3rem;
+
+    row-gap: 0.8rem;
+
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.453);
+}
+
+.section button {
+    width: 170px;
+    margin-top: .7rem;
+}
+
+.section .preview__title {
+    text-align: start;
+    color: #000;
+    font-weight: 700;
+}
+
+.section .preview__image {
+    border-radius: 4px;
+    border: 1px solid #AAA;
+}

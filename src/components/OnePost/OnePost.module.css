@@ -1,0 +1,60 @@
+.section {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    row-gap: 0.6rem;
+    padding: 1.5rem;
+    
+    background: #FDFDFD;
+    border: 1px solid #000;
+}
+
+.section header h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: italic;
+
+    color: #000;
+}
+
+.section div img {
+    width: 100%;
+
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+
+.section div small {
+    color: #000;
+    font-style: italic;
+
+    padding: 0.2rem;
+}
+
+.section div small span {
+    font-weight: 500;
+}
+
+.section .body {
+    text-align: center;
+    line-height: 1.4rem;
+    letter-spacing: 0.1rem;
+
+    margin: 0.5rem 0;
+}
+
+.section .tags {
+    display: flex;
+    column-gap: 0.6rem;
+
+    font-weight: 700;
+}
