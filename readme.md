@@ -1,5 +1,7 @@
 # Life Shared
 
+![Home page life shared](github-image-life-shared.png)
+
 ## Description
 
 O life shared é um blog feito em react com itegração com firebase, ele possui sistema de autenticação através de E-mail e senha. <br />
