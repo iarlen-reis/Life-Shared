@@ -4,8 +4,8 @@
 
 ## Description
 
-O life shared é um blog feito em <b>react com itegração com <b>firebase, ele possui sistema de autenticação através de E-mail e senha.
-O life shared possui um sistema de roteamento utilizando <b>react-router-dom tendo <b>rotas públicas e <b>privadas. <br>
+O life shared é um blog feito em **react** com itegração com **firebase**, ele possui sistema de autenticação através de E-mail e senha.
+O life shared possui um sistema de roteamento utilizando **react-router-dom** tendo **rotas públicas** e **privadas.** <br>
 
 ### Routes public:
 
