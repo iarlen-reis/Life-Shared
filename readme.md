@@ -32,16 +32,16 @@ Ferramentas utilizadas no desenvolvimento:
 React js  
 [@ReactJs](https://pt-br.reactjs.org/)
 
-React Router Dom V6 
+React Router Dom V6 <br>
 [@ReactRouterDom](https://reactrouter.com/en/main)
 
-Google Firebase 
+Google Firebase <br>
 [@Firebase](https://firebase.google.com/)
 
-HTML 5
+HTML 5 <br>
 [@HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 
-CSS 3 
+CSS 3 <br>
 [@CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 Unsplash (Images)
