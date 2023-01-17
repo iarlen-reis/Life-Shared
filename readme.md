@@ -1,6 +1,6 @@
 # Life Shared
 
-![Home page life shared](github-image-life-shared.png)
+![Home page life shared](./public/github-image-life-shared.png)
 
 ## Description
 
