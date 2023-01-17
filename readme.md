@@ -13,6 +13,7 @@ O life shared possui um sistema de roteamento utilizando <b>react-router-dom<b> 
 * /about
 * /login
 * /register
+* /posts/:id
 
 ### Routes private:
 
