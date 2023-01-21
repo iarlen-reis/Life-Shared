@@ -42,6 +42,7 @@
 
     margin-top: 1.7rem;
     row-gap: 1rem;
+
 }
 
 .tem__postagem li {
@@ -52,6 +53,8 @@
     text-transform: uppercase;
     
     padding: 1rem;
+
+    
     
     color: #000;
     background: #FDFDFD;
@@ -72,6 +75,8 @@
     display: flex;
     column-gap: 0.8rem;
 
+
+
     font-weight: 600;
 }
 
@@ -87,4 +92,148 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 810px) {
+    .tem__postagem li h3 {
+        font-size: .8rem;
+    }
+
+    .tem__postagem li div a {
+        width: 110px;
+    }
+}
+
+@media (max-width: 750px) {
+    .tem__postagem li h3 {
+        font-size: .7rem;
+    }
+
+    .tem__postagem li div a {
+        width: 90px;
+    }
+}
+
+@media (max-width: 670px) {
+    .tem__postagem li h3 {
+        font-size: .63rem;
+    }
+
+
+    .tem__postagem li div a {
+        width: 85px;
+    }
+}
+
+@media (max-width: 635px) {
+    .tem__postagem li h3 {
+        font-size: .6rem;
+        font-weight: bold;
+    }
+
+    .tem__postagem li div a {
+        width: 75px;
+    }
+
+    .tem__postagem li div button {
+        width: 90px;
+    }
+}
+
+@media (max-width: 570px) {
+    .tem__postagem li {
+        flex-direction: column;
+        row-gap: 0.7rem;
+    }
+
+    .tem__postagem div {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tem__postagem li h3 {
+        font-size: .8rem;
+        font-weight: bold;
+    }
+
+    .tem__postagem li div a {
+        width: 120px;
+    }
+
+    .tem__postagem li div button {
+        width: 120px;
+    }
+}
+
+@media (max-width: 490px) {
+    .tem__postagem li div a {
+        width: 30%;
+    }
+
+    .tem__postagem li div button {
+        width: 30%;
+    }
+    
+    .header p {
+        font-size: .8rem;
+    }
+
+    .header small {
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .tem__postagem li h3 {
+        font-size: .7rem;
+        font-weight: bold;
+    }
+
+    .tem__postagem li div a {
+        width: 30%;
+        font-size: .8rem;
+    }
+
+    .tem__postagem li div button {
+        width: 30%;
+        font-size: .8rem;
+
+    }
+}
+
+@media (max-width: 335px) {
+    .tem__postagem li h3 {
+        font-size: .65rem;
+        font-weight: bold;
+    }
+
+    .tem__postagem li div a {
+        width: 30%;
+        font-size: .7rem;
+    }
+
+    .tem__postagem li div button {
+        width: 30%;
+        font-size: .7rem;
+
+    }
+}
+
+@media (max-width: 315px) {
+    .tem__postagem li h3 {
+        font-size: .5rem;
+        font-weight: bold;
+    }
+
+    .tem__postagem li div a {
+        width: 20%;
+        font-size: .6rem;
+    }
+
+    .tem__postagem li div button {
+        width: 20px;
+        font-size: .6rem;
+
+    }
 }

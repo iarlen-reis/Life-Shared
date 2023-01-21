@@ -10,7 +10,7 @@ const DashboardPosts = ({ post }) => {
   const { deleteDocument } = useDeleteDocument("posts");
 
   return (
-    <li key={post.id}>
+    <li key={post.id} className={styles.container}>
       <h3>
         Titulo da postagem: <br /> <span>{post.title}</span>
       </h3>

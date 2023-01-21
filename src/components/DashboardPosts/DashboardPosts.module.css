@@ -1,0 +1,6 @@
+
+@media (max-width: 570px) {
+    .container li h3 {
+        background: red;
+    }
+}

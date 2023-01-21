@@ -26,3 +26,9 @@
 .footer div p {
     font-style: italic;
 }
+
+@media (max-width: 640px) {
+    .footer div h3 {
+        font-size: 1rem;
+    }
+}

@@ -60,3 +60,28 @@
 .post a {
     width: 185px;
 }
+
+@media (max-width: 640px) {
+    .post {
+        width: 430px;    
+    }
+}
+
+@media (max-width: 530px) {
+    .post {
+        width: 410px;    
+    }
+}
+
+
+@media (max-width: 440px) {
+    .post {
+        width: 380px;    
+    }
+}
+
+@media (max-width: 407px) {
+    .post {
+        width: 350px;    
+    }
+}
